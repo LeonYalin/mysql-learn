@@ -1,4 +1,4 @@
-import firstDay from './firstDay';
+import firstDay from './introduction';
 
 export function main() {
   firstDay();
