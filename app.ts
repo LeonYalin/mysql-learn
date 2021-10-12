@@ -1,5 +1,5 @@
 import { Express } from 'express';
-import { main } from './src/main';
+import { main } from './src/learn/main';
 
 const express = require('express');
 const path = require('path');
