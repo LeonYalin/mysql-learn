@@ -16,7 +16,7 @@ function installations() {
 
 function databases() {
   log(
-    `Let"s try databases CRUD.
+    `Let"s try some basic databases commands.
     - To create a database, use "CREATE DATABASE <db_name>;"
     - To use a database as current, use "USE <db_name>;"
     - To show a database as current, use "SELECT DATABASE();"
