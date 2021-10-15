@@ -1,7 +1,7 @@
-import { log as crud, delimeterMsg, logF } from '../util';
+import { log, delimeterMsg, logF } from '../util';
 
 function read() {
-  crud(
+  log(
     `Here are some CRUD commands we can use with tables:
 
     - use "SELECT * FROM <table_name>" to select all records.

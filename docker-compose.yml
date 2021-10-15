@@ -21,6 +21,7 @@ services:
     volumes:
       - mysql:/var/lib/mysql
       - mysql_config:/etc/mysql
+      - ./src/learn/files:/app/
   mysql_workbench:
     image: lscr.io/linuxserver/mysql-workbench
     container_name: mysql_workbench
