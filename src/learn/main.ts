@@ -1,5 +1,6 @@
 import aggregateFunctions from './aggregateFunctions';
 import introduction from './introduction';
+import logicalOperators from './logicalOperators';
 import refiningSelections from './refiningSelections';
 import stringFunctions from './stringFunctions';
 import tableCRUD from './tableCRUD';
@@ -10,4 +11,5 @@ export function main() {
   stringFunctions();
   refiningSelections();
   aggregateFunctions();
+  logicalOperators();
 }
