@@ -1,6 +1,6 @@
 import { log, delimeterMsg, logF } from '../util';
 
-function read() {
+function crudFunctions() {
   log(
     `Here are some CRUD commands we can use with tables:
 
@@ -20,5 +20,5 @@ function read() {
 
 export default function tableCRUD() {
   delimeterMsg('TABLE CRUD');
-  logF(read);
+  logF(crudFunctions);
 }
