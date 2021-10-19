@@ -1,8 +1,10 @@
 // nodejs only logs
 
 function delimeterMsg(str: string) {
-  const msg = `\n*************** ${str} *****************\n`;
+  const msg = `*************** ${str} *****************`;
+  console.log('');
   console.log(`\x1b[32m%s\x1b[0m`, msg);
+  console.log('');
 }
 
 function log(...args: any[]) {

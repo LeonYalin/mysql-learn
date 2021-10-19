@@ -7,7 +7,8 @@
     "start": "nodemon",
     "build": "rimraf ./dist && tsc",
     "serve": "npm run build && node dist/app.js",
-    "mysql:cli": "docker exec -it mysql-learn_mysqldb_1 sh -c 'mysql --user=root --password=root'"
+    "mysql:cli": "docker exec -it mysql-learn_mysqldb_1 sh -c 'mysql --user=root --password=root'",
+    "up": "docker-compose up"
   },
   "repository": {
     "type": "git",
