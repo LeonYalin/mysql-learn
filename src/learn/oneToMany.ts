@@ -2,9 +2,9 @@ import { log, delimeterMsg, logF } from '../util';
 
 function overview() {
   log(
-    `Let's take about table relationships:
+    `Let's take about 1:many relationships:
 
-    In order to create a 1:many relationsship, we need to specify a FOREIGN KEY.
+    In order to create a 1:many relationship, we need to specify a FOREIGN KEY.
 
     CREATE TABLE customers(
       id INT AUTO_INCREMENT PRIMARY KEY,
