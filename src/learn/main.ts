@@ -1,4 +1,5 @@
 import aggregateFunctions from './aggregateFunctions';
+import designingInstagramClone from './designingInstagramClone';
 import introduction from './introduction';
 import logicalOperators from './logicalOperators';
 import manyToMany from './manyToMany';
@@ -16,4 +17,5 @@ export function main() {
   logicalOperators();
   oneToMany();
   manyToMany();
+  designingInstagramClone();
 }
