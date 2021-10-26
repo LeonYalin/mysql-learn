@@ -8,6 +8,7 @@ import oneToMany from './oneToMany';
 import refiningSelections from './refiningSelections';
 import stringFunctions from './stringFunctions';
 import tableCRUD from './tableCRUD';
+import databaseTriggers from './databaseTriggers';
 
 export function main() {
   introduction();
@@ -20,4 +21,5 @@ export function main() {
   manyToMany();
   designingInstagramClone();
   workingWithInstagramData();
+  databaseTriggers();
 }
